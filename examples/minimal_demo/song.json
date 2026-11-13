@@ -1,0 +1,123 @@
+{
+  "meta": {
+    "title": "星灯りの詩 (Demo)",
+    "artist": "Sample Vocal",
+    "album": "Open Source Demo",
+    "duration": 8.0,
+    "style": "5+1 Dual-Buffer Morpheme Breakdown"
+  },
+  "sentences": [
+    {
+      "id": 1,
+      "start": 0.8,
+      "end": 3.8,
+      "trans": "「春风轻叩着窗棂」",
+      "tokens": [
+        {
+          "romaji": "ha ru",
+          "kana": "はる",
+          "word": "春",
+          "pos": "名词",
+          "gloss": "春天",
+          "type": "noun"
+        },
+        {
+          "romaji": "no",
+          "kana": "の",
+          "word": "の",
+          "pos": "格助词(属格)",
+          "gloss": "的",
+          "type": "particle"
+        },
+        {
+          "romaji": "ka ze",
+          "kana": "かぜ",
+          "word": "風",
+          "pos": "名词",
+          "gloss": "风",
+          "type": "noun"
+        },
+        {
+          "romaji": "ga",
+          "kana": "が",
+          "word": "が",
+          "pos": "格助词(主格)",
+          "gloss": "[主语]",
+          "type": "particle"
+        },
+        {
+          "romaji": "ma do",
+          "kana": "まど",
+          "word": "窓",
+          "pos": "名词",
+          "gloss": "窗户",
+          "type": "noun"
+        },
+        {
+          "romaji": "o",
+          "kana": "を",
+          "word": "を",
+          "pos": "格助词(宾格)",
+          "gloss": "把…",
+          "type": "particle"
+        },
+        {
+          "romaji": "ta ta ku",
+          "kana": "たたく",
+          "word": "叩く",
+          "pos": "动1(五段)终止",
+          "gloss": "轻叩/敲",
+          "type": "verb"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "start": 4.2,
+      "end": 7.4,
+      "trans": "「繁星向着苍穹浅唱」",
+      "tokens": [
+        {
+          "romaji": "so ra",
+          "kana": "そら",
+          "word": "蒼空",
+          "pos": "名词[当て字:そら]",
+          "gloss": "苍穹(唱作そら)",
+          "type": "noun"
+        },
+        {
+          "romaji": "e to",
+          "kana": "へと",
+          "word": "へと",
+          "pos": "复合助词(方向)",
+          "gloss": "向着…",
+          "type": "particle"
+        },
+        {
+          "romaji": "ho shi",
+          "kana": "ほし",
+          "word": "星",
+          "pos": "名词",
+          "gloss": "繁星",
+          "type": "noun"
+        },
+        {
+          "romaji": "ga",
+          "kana": "が",
+          "word": "が",
+          "pos": "格助词(主格)",
+          "gloss": "[主语]",
+          "type": "particle"
+        },
+        {
+          "romaji": "u ta u",
+          "kana": "うたう",
+          "word": "歌う",
+          "pos": "动1(五段)终止",
+          "gloss": "歌唱",
+          "type": "verb"
+        }
+      ]
+    }
+  ]
+}

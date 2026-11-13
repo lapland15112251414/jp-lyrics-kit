@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+*.mov
+*.mp4
+*.npz
+output_cards/
+previews/
+deliverables/
+composite_frames/
+workbench.html

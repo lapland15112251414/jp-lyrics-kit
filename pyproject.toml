@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jp-lyrics-kit"
+version = "0.1.0"
+description = "Reusable 5+1 Japanese-Chinese dual-buffer lyrics study video toolchain & Agent Skill"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+keywords = [
+    "japanese",
+    "lyrics",
+    "language-learning",
+    "ffmpeg",
+    "video",
+    "sudachipy",
+    "agent-skills",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Education",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Video",
+]
+dependencies = [
+    "Pillow>=10.0.0",
+    "numpy>=1.24.0",
+    "opencv-python>=4.8.0",
+    "resvg_py>=0.1.0",
+    "sudachipy>=0.6.8",
+    "sudachidict_core>=20240109",
+    "pykakasi>=2.2.0",
+]
+
+[project.optional-dependencies]
+whisper = ["faster-whisper>=1.0.0"]
+all = ["faster-whisper>=1.0.0", "mutagen>=1.47.0"]
+
+[project.scripts]
+jp-lyrics-kit = "jp_lyrics_kit.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/lapland15112251414/jp-lyrics-kit"
+Repository = "https://github.com/lapland15112251414/jp-lyrics-kit"
+Issues = "https://github.com/lapland15112251414/jp-lyrics-kit/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["jp_lyrics_kit*"]
